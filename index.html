@@ -78,7 +78,9 @@
     display:flex; align-items:center; justify-content:center;
     font-family:'Kanit'; font-weight:800; font-size:16px; color:#fff;
     box-shadow:0 0 22px rgba(147,51,234,.55);
+    overflow:hidden;
   }
+  .brand-mark img{width:100%; height:100%; object-fit:cover; display:block;}
   .brand-name{font-family:'Kanit'; font-weight:700; font-size:19px; letter-spacing:.02em;}
   .brand-name span{color:var(--glow);}
   .nav-links{display:flex; gap:10px;}
@@ -255,7 +257,7 @@
 <nav>
   <div class="wrap">
     <div class="brand">
-      <div class="brand-mark">K</div>
+      <div class="brand-mark"><img src="https://i.postimg.cc/xd5mv6Cb/e4313f9e-73d4-4d33-bccd-709343db3ecf1.png" alt="Kaizen Shop logo"></div>
       <div class="brand-name">KAIZEN <span>SHOP</span></div>
     </div>
     <div class="nav-links">
@@ -270,8 +272,8 @@
   <span class="eyebrow">เปิดคิวรับงานทุกวัน</span>
   <h1 class="hero-title">KAIZEN SHOP</h1>
   <p class="hero-sub">
-    รับทำ <b>เซิร์ฟเวอร์ดิสคอร์ด</b> ครบทุกแนว ตั้งแต่ดิสส่วนตัวไปจนถึงเซิร์ฟเวอร์โรลเพลย์ประเทศ<br>
-    งานเสร็จภายในวันที่สั่งทุกคิว ราคาเดียวไม่มีบวกเพิ่ม ยกเว้นแต่สั่งเพิ่มที่ไม่มีในราคา
+    รับทำ <b>เซิร์ฟเวอร์ดิสคอร์ด</b> ครบทุกแนว ตั้งแต่ดิสส่วนตัวไปจนถึงเซิร์ฟเวอร์โรลเพลย์ระดับประเทศ<br>
+    งานเสร็จภายในวันที่สั่งทุกคิว ราคาเดียวไม่มีบวกเพิ่ม
   </p>
   <div class="hero-ctas">
     <a class="btn btn-main" href="https://discord.gg/Q589MD6d33" target="_blank" rel="noopener">เปิดคิวสั่งงานทาง Discord</a>
@@ -287,7 +289,7 @@
 <section id="pricing" class="wrap reveal">
   <div class="section-head">
     <span class="kicker">Price List</span>
-    <h2>เลือกดูราคาเซิร์ฟเวอร์</h2>
+    <h2>เลือกแรงค์เซิร์ฟเวอร์ของคุณ</h2>
     <p class="section-desc">ราคาเดียวจบ ไม่มีบวกเพิ่ม ยกเว้นลูกค้าขอระบบเสริมนอกบรีฟ ซึ่งจะคิดตามราคาบอทจริง</p>
   </div>
 
@@ -414,7 +416,11 @@
       <li><span class="brief-num">1</span><div><div class="brief-label">ธีมดิส - โทนสี</div><div class="brief-hint">บอกโทนสีที่ชอบ หากให้ร้านหาภาพให้ ต้องบรีฟโทนสีมาด้วย</div></div></li>
       <li><span class="brief-num">2</span><div><div class="brief-label">ภาษาที่อยากให้ใช้</div><div class="brief-hint">ไทย / อังกฤษ / ผสม</div></div></li>
       <li><span class="brief-num">3</span><div><div class="brief-label">แนวการตกแต่ง</div><div class="brief-hint">เท่ / น่ารัก / ผสม</div></div></li>
-      <li><span class="brief-num">4</span><div><div class="brief-label">งบที่จะทำ</div><div class="brief-hint">ำหากมีเงินโปรดระบุเงินด้วย</div></div></li>
+      <li><span class="brief-num">4</span><div><div class="brief-label">ชื่อเซิฟ - รูปดิส</div><div class="brief-hint">ไม่ค่อยจำเป็น มีหรือไม่มีก็ได้</div></div></li>
+      <li><span class="brief-num">5</span><div><div class="brief-label">โซนต่างๆ</div><div class="brief-hint">จำนวน / ชื่อ / หรือให้ตามใจช่าง</div></div></li>
+      <li><span class="brief-num">6</span><div><div class="brief-label">ห้องพิมพ์</div><div class="brief-hint">จำนวน / ชื่อ / หรือให้ตามใจช่าง</div></div></li>
+      <li><span class="brief-num">7</span><div><div class="brief-label">ห้องเสียง</div><div class="brief-hint">จำนวน / ชื่อ / หรือให้ตามใจช่าง</div></div></li>
+      <li><span class="brief-num">8</span><div><div class="brief-label">ยศ - ความสามารถของแต่ละยศ</div><div class="brief-hint">ระบุสิทธิ์และหน้าที่ของแต่ละยศ</div></div></li>
       <li><span class="brief-num">9</span><div><div class="brief-label">ระบบที่ต้องการในเซิร์ฟเวอร์</div><div class="brief-hint">บอทหรือระบบเสริมที่อยากให้มี</div></div></li>
       <li><span class="brief-num">10</span><div><div class="brief-label">คิวที่ต้องการ</div><div class="brief-hint">ปกติ / เร่ง ×1 / ×2 / ×3</div></div></li>
       <li><span class="brief-num">11</span><div><div class="brief-label">บรีฟเพิ่มเติม</div><div class="brief-hint">รายละเอียดอื่นๆ ที่อยากแจ้งร้าน</div></div></li>
@@ -434,7 +440,7 @@
 <footer class="wrap">
   <div class="footer-top">
     <div class="brand">
-      <div class="brand-mark">K</div>
+      <div class="brand-mark"><img src="https://i.postimg.cc/xd5mv6Cb/e4313f9e-73d4-4d33-bccd-709343db3ecf1.png" alt="Kaizen Shop logo"></div>
       <div class="brand-name">KAIZEN <span>SHOP</span></div>
     </div>
     <div class="nav-links">
@@ -443,7 +449,7 @@
     </div>
   </div>
   <p class="footer-note">
-    <b>ข้อควรทราบ:</b> 
+    <b>ข้อควรทราบ:</b> ลิงก์ตัวอย่างหรือไฟล์ที่เกี่ยวข้องกับงาน กรุณาส่งในดิสคอร์ดร้านเท่านั้น
     สำหรับลูกค้าที่มีเซิร์ฟเวอร์อยู่แล้วและต้องการให้ร้านเข้าไปทำต่อ จำเป็นต้องโอนหัวดิส (Owner) ให้ทางร้านเท่านั้น
     กรุณาบรีฟรายละเอียดให้ชัดเจนก่อนโอนเงิน หากบรีฟไม่ละเอียด ทางร้านจะทำตามความเข้าใจของร้าน และการแก้ไขภายหลังจะมีค่าใช้จ่ายเพิ่มเติม
   </p>
